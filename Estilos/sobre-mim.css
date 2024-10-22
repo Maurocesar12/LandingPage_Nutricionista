@@ -1,0 +1,86 @@
+.sobremim{
+    padding: 290px 50px;
+    background-color: #fff;
+    text-align: center;
+    background: linear-gradient(135deg, #f0fff9, #d4f4e4, #a8e6c9, #7ed8af, #56c993);
+    box-shadow: inset 0 0 80px rgba(255, 255, 255, 0.15), inset 0 0 150px rgba(255, 255, 255, 0.1);
+}
+
+.sobremim h1 {
+    text-align: center;
+    font-size: 2.8em; /* Aumentando um pouco o tamanho da fonte para mais destaque */
+    margin: 18px 0 50px;
+    margin-top: -210px;
+    margin-bottom: 140px;
+    color: #32c770;
+    text-shadow: 3px 6px 18px rgba(50, 199, 112, 0.5), 0 0 20px rgba(50, 255, 199, 0.3); /* Sombra mais intensa e efeito de brilho */
+    font-family: 'Poppins', sans-serif; /* Usando uma fonte moderna e suave */
+    letter-spacing: 1px; /* Espaciamento das letras para elegância */
+    text-transform: uppercase; /* Letras maiúsculas para dar mais impacto */
+    transition: all 0.3s ease-in-out; /* Animação suave nas mudanças */
+    cursor: pointer;
+    opacity: 0; /* Inicia invisível */
+    transform: translateY(50px); /* Efeito de movimento para baixo */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.sobremim h1.visible {
+    opacity: 1; /* Torna visível */
+    transform: translateY(0); /* Movimenta para a posição original */
+}
+
+.sobremim h1:hover {
+    color: #2fa65f; /* Mudança sutil de cor no hover */
+    text-shadow: 5px 8px 25px rgba(50, 199, 112, 0.8), 0 0 40px rgba(50, 255, 199, 0.5); /* Sombra mais forte no hover */
+    transform: scale(1.05); /* Leve efeito de zoom ao passar o mouse */
+}
+
+.sobremim .sobre p{
+    text-align: end;
+    margin-left: 350px;
+    color: black;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.sobremim .sobre p.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Media Query para ajustar em telas menores */
+@media (max-width: 768px) {
+    .sobremim {
+        padding: 150px 20px; /* Ajusta o padding para telas menores */
+    }
+
+    .sobremim h1 {
+        font-size: 2.2em; /* Reduz o tamanho da fonte para telas menores */
+        margin-top: -100px; /* Ajusta a margem superior */
+        margin-bottom: 50px; /* Ajusta a margem inferior */
+    }
+
+    .sobremim .sobre p {
+        text-align: left; /* Alinha o texto à esquerda para melhor legibilidade */
+        margin-left: 0; /* Remove a margem esquerda */
+        padding: 0 10px; /* Adiciona um padding lateral */
+    }
+}
+
+@media (max-width: 480px) {
+    .sobremim {
+        padding: 100px 15px; /* Ajusta ainda mais o padding para smartphones */
+    }
+
+    .sobremim h1 {
+        font-size: 1.8em; /* Reduz ainda mais o tamanho da fonte para smartphones */
+        margin-top: -50px; /* Ajusta a margem superior */
+        margin-bottom: 30px; /* Ajusta a margem inferior */
+    }
+
+    .sobremim .sobre p {
+        font-size: 0.9em; /* Reduz o tamanho da fonte do parágrafo */
+        padding: 0 5px; /* Ajusta o padding lateral */
+    }
+}

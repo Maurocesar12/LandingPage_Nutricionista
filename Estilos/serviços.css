@@ -1,0 +1,100 @@
+.servicos {
+    padding: 150px 90px;
+    background-color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #ffffffcd, #e8f3ec);
+}
+
+
+.servicos h2 {
+    font-size: 2.8em; /* Tamanho da fonte */
+    margin: 18px 0 50px;  /* Margem superior e inferior */
+    color: #32c770; /* Cor do texto */
+    text-align: center;  /* Centraliza o texto */
+    text-shadow: 2px 5px 12px rgba(50, 199, 112, 0.5); /* Sombra verde atrás do texto */
+    margin-top: -50px; /* Ajuste da margem superior */
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1px; /* Espaciamento das letras para elegância */
+    text-transform: uppercase; /* Letras maiúsculas para dar mais impacto */
+    cursor: pointer;
+}
+.servicos h2:hover{
+color: #2fa65f; /* Mudança sutil de cor no hover */
+text-shadow: 5px 8px 25px rgba(50, 199, 112, 0.8), 0 0 40px rgba(50, 255, 199, 0.5); /* Sombra mais forte no hover */
+transform: scale(1.05); /* Leve efeito de zoom ao passar o mouse */
+}
+.servicos h3{
+    font-size: 28px; /* Tamanho moderado para manter a elegância */
+    font-weight: 700; /* Peso intermediário para um visual clean */
+    margin-bottom: 15px; /* Margem inferior para espaçamento suave */
+    color: black; /* Mantém a cor preta clássica */
+    text-shadow: 2px 8px 14px rgba(0, 0, 0, 0.15); /* Sombra suave para criar profundidade */
+    line-height: 1.1; /* Linha mais espaçada para facilitar a leitura */
+    cursor: pointer; /* Aponta que o texto é interativo */
+}
+
+.lista-servicos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 56px;
+    gap: 20px;
+}
+
+.servico-item {
+    background:linear-gradient(to left, #68d692, #bff4d3);
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(20px); /* Para criar uma leve transição vinda de baixo */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.servico-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.servico-item:hover{
+    transform: translateX(10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+.servico-item h3{
+    font-size: 30px;
+}
+
+.btn-servicos{
+    display: inline-block;
+    background:linear-gradient(to right,#a2e4be, #13e56a );
+    margin-top: 80px;
+    font-size: 20px;
+    padding: 15px 110px;
+    border-radius: 25px;
+    border: #13e56a;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Adiciona transição suave */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);;
+    cursor: pointer;
+    font-family: sans-serif, Arial, Helvetica;
+}
+.btn-servicos:hover{
+    transform: translateX(10px);
+    box-shadow: 0 12px 20px rgba(8, 207, 68, 0.738); ;
+}
+
+.servico-item .img-service img { 
+    width: 100%;  /* Ajusta a imagem ao tamanho do contêiner */
+    border-radius: 15px;  /* Suaviza os cantos com um arredondamento menor */
+    opacity: 0.85;  /* Leve transparência para suavidade */
+    margin-top: 16px;  /* Ajuste de espaço superior */
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1); /* Sombra leve para destacar a imagem */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;  /* Transição suave para interações */
+    margin-bottom: 12px;
+}
+
+.servico-item .img-service img:hover {
+    transform: scale(1.05);  /* Leve aumento ao passar o mouse */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);  /* Sombra mais intensa no hover */
+}
