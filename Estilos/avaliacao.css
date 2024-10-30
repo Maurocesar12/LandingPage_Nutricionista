@@ -1,14 +1,17 @@
 .avaliacoes {
-  padding: 50px 20px; /* Espaçamento interno */
-  background-color: #32c770; /* Cor de fundo verde */
-  color: white; /* Cor do texto */
-  text-align: center; /* Alinhamento do texto */
-  border-top-right-radius: 110px; /* Arredondamento superior direito */
-  border-bottom-left-radius: 110px; /* Arredondamento inferior esquerdo */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra verde */
-  position: relative; /* Necessário para aplicar a sombra */
-  overflow: hidden; /* Para evitar que os filhos saiam do contêiner */
+  padding: 50px 20px; 
+  background-color: #32c770; 
+  color: white; 
+  text-align: center; 
+  border-bottom-left-radius: 160px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+  position: relative; 
+  overflow: hidden; 
+}
 
+.section-avaliacoes * {
+  background-color: transparent !important; /* Garante fundo transparente nos filhos */
+  box-shadow: none !important;
 }
 
 .avaliacoes h2 {
