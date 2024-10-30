@@ -42,14 +42,14 @@ transform: scale(1.05); /* Leve efeito de zoom ao passar o mouse */
 }
 
 .servico-item {
-    background:linear-gradient(to left, #68d692, #bff4d3);
+    background: linear-gradient(to left, #68d692, #bff4d3);
     border-radius: 15px;
-    padding: 20px;
-    width: 250px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     opacity: 0;
-    transform: translateY(20px); /* Para criar uma leve transição vinda de baixo */
+    transform: translateY(20px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
@@ -78,6 +78,7 @@ transform: scale(1.05); /* Leve efeito de zoom ao passar o mouse */
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);;
     cursor: pointer;
     font-family: sans-serif, Arial, Helvetica;
+    font-weight: bold;
 }
 .btn-servicos:hover{
     transform: translateX(10px);
