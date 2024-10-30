@@ -7,6 +7,20 @@
 .contato h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    font-size: 2.5em;
+    margin: 18px 0 50px;
+    color: #32c770;
+    text-align: center;
+    text-shadow: 2px 5px 12px rgba(50, 199, 112, 0.5);
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.contato h2:hover{
+    color: #2fa65f; 
+    text-shadow: 5px 8px 25px rgba(50, 199, 112, 0.8), 0 0 40px rgba(50, 255, 199, 0.5); 
+    transform: scale(1.05);
 }
 
 .form-contato {
@@ -14,6 +28,11 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    background-color: #32c770;
+    box-shadow: inset 8px 0 50px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
 }
 
 .form-contato label {
@@ -26,18 +45,23 @@
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
+    border: 1px solid #cccccc4b;
     border-radius: 5px;
 }
 
 .btn-enviar {
     margin-top: 20px;
     background-color: #32c770;
+    background-color: #090a0a;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    transition: background-color 0.8s ease;
+    font-size: 1em;
+    font-weight: bolder;
 }
 
 .btn-enviar:hover {
