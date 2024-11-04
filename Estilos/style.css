@@ -78,7 +78,7 @@
   }
   
   .texto {
-    max-width: 500px;
+    max-width: 550px;
     padding-top: 60px;
     animation: deslizarParaCima 1.5s ease-out;
   }

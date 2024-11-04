@@ -81,21 +81,21 @@ transform: scale(1.05); /* Leve efeito de zoom ao passar o mouse */
     font-weight: bold;
 }
 .btn-servicos:hover{
-    transform: translateX(10px);
+    transform: translateY(10px);
     box-shadow: 0 12px 20px rgba(8, 207, 68, 0.738); ;
 }
 
 .servico-item .img-service img { 
-    width: 100%;  /* Ajusta a imagem ao tamanho do contêiner */
-    border-radius: 15px;  /* Suaviza os cantos com um arredondamento menor */
-    opacity: 0.85;  /* Leve transparência para suavidade */
-    margin-top: 16px;  /* Ajuste de espaço superior */
-    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1); /* Sombra leve para destacar a imagem */
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;  /* Transição suave para interações */
+    width: 70%;
+    border-radius: 15px;
+    opacity: 0.85;
+    margin-top: 16px;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     margin-bottom: 12px;
+    transform: scaleX(1.4);
 }
 
 .servico-item .img-service img:hover {
-    transform: scale(1.05);  /* Leve aumento ao passar o mouse */
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);  /* Sombra mais intensa no hover */
 }

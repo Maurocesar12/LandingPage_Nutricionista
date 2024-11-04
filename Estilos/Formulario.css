@@ -72,21 +72,40 @@
 .contato .social-icons{
     flex: 1;
 }
-.social-icons{
+
+.container-pai {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-left: 26%;
-    gap: 48px;
-    transform: translateY(-100px);;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha os elementos à esquerda */
+    margin-left: 2%; /* Ajuste para o espaçamento desejado */
+    gap: 16px; /* Espaço entre o logo e os ícones */
+}
+.logo2{
+    margin-top: -385px;
+    margin-left: 200px;
 }
 
-.social-icons img{
+.logo2 img {
+    width: 60%;
+    height: auto;
+    box-shadow: 0 14px 10px rgba(0, 0, 0, 0.5), /* Sombra leve próxima */
+}
+
+.social-icons {
+    display: flex;
+    gap: 50px; /* Espaço entre os ícones */
+    transform: translateY(-45px);
+    margin-left: 354px;
+    margin-top: 20px;
+}
+
+.social-icons img {
     width: 60px;
     height: 60px;
-    transition: transform 0.5s;
+    transition: transform 0.3s ease;
 }
 
-.social-icons img:hover{
+.social-icons img:hover {
     transform: scale(1.1);
 }
+
