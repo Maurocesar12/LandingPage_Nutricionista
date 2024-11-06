@@ -82,7 +82,7 @@
 }
 .logo2{
     margin-top: -385px;
-    margin-left: 200px;
+    margin-left: 120px;
 }
 
 .logo2 img {
@@ -95,7 +95,7 @@
     display: flex;
     gap: 50px; /* Espaço entre os ícones */
     transform: translateY(-45px);
-    margin-left: 354px;
+    margin-left: 276px;
     margin-top: 20px;
 }
 
