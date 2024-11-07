@@ -78,7 +78,7 @@
   }
   
   .texto {
-    max-width: 550px;
+    max-width: 600px;
     padding-top: 60px;
     animation: deslizarParaCima 1.5s ease-out;
   }
@@ -94,7 +94,7 @@
   }
   
   .texto h1 {
-    font-size: 48px;
+    font-size: 58px;
     color: #000000;
   }
   

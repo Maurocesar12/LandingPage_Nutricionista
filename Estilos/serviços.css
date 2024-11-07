@@ -86,14 +86,14 @@ transform: scale(1.05); /* Leve efeito de zoom ao passar o mouse */
 }
 
 .servico-item .img-service img { 
-    width: 70%;
-    border-radius: 15px;
+    width: 49%;
+    border-radius: 10px;
     opacity: 0.85;
     margin-top: 16px;
     box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     margin-bottom: 12px;
-    transform: scaleX(1.4);
+    transform: scaleX(1.8);
 }
 
 .servico-item .img-service img:hover {

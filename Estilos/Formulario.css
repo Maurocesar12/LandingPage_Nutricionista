@@ -19,12 +19,6 @@
     cursor: pointer;
 }
 
-.contato h2:hover{
-    color: #2fa65f; 
-    text-shadow: 5px 8px 25px rgba(50, 199, 112, 0.8), 0 0 40px rgba(50, 255, 199, 0.5); 
-    transform: scale(1.05);
-}
-
 .form-contato {
     max-width: 520px;
     display: flex;
