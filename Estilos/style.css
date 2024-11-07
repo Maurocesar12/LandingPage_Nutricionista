@@ -240,6 +240,7 @@
   
     .texto h1 {
       font-size: 32px;
+      margin-top: 10px;
     }
   
     .texto p {
