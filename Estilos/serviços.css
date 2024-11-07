@@ -99,3 +99,57 @@ transform: scale(1.05); /* Leve efeito de zoom ao passar o mouse */
 .servico-item .img-service img:hover {
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);  /* Sombra mais intensa no hover */
 }
+
+@media (max-width: 767px) {
+    .servicos {
+        padding: 80px 20px;
+        background: linear-gradient(to right, #ffffffcd, #e8f3ec);
+      }
+    
+      .servicos h2 {
+        font-size: 1.8em;
+        margin: 10px 0 30px;
+        margin-top: -30px;
+        text-shadow: 1px 3px 8px rgba(50, 199, 112, 0.5);
+        letter-spacing: 0.5px;
+      }
+    
+      .servicos h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        line-height: 1.2;
+      }
+    
+      .lista-servicos {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        gap: 15px;
+      }
+    
+      .servico-item {
+        width: 100%;
+        max-width: 280px;
+        padding: 10px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+      }
+    
+      .servico-item h3 {
+        font-size: 24px;
+      }
+    
+      .btn-servicos {
+        padding: 10px 50px;
+        font-size: 18px;
+        margin-top: 40px;
+      }
+    
+      .servico-item .img-service img {
+        width: 50%;
+        transform: scaleX(1.8);
+        margin-top: 10px;
+        margin-bottom: 8px;
+        box-shadow: 0 8px 14px rgba(0, 0, 0, 0.1);
+      }
+    }
