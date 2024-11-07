@@ -88,9 +88,11 @@
 .social-icons {
     display: flex;
     gap: 50px; /* Espaço entre os ícones */
-    transform: translateY(-45px);
-    margin-left: 276px;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
     margin-top: 20px;
+    transform: translateY(0); /* Remove o deslocamento vertical */
+    margin-left: 21%;
 }
 
 .social-icons img {
@@ -164,7 +166,7 @@
         align-items: center;
         gap: 65px;
         margin-top: 20px;
-        margin-right: 68%;
+        margin-right: 24%;
         transform: none;
     }
   
