@@ -98,5 +98,9 @@ const nav = document.querySelector(".nav");
 
 hamburger.addEventListener("click", () => nav.classList.toggle("active"));
 
-
+/* Confirmar o envio do formulario */
+document.getElementById("contactForm")?.addEventListener('submit', function(event){
+    event.preventDefault();
+    alert('Mensagem enviada com sucesso! Clique no ok para continuar!');
+})
 

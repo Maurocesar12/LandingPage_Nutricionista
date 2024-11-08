@@ -181,15 +181,16 @@
   
 
   <h2>Entre em Contato</h2>
-  <form class="form-contato">
+  <form class="form-contato"  action="https://formspree.io/f/mjkvwzjl"
+  method="POST" id="contactForm">
     <label for="nome">Nome:</label>
-    <input type="text" id="nome" name="nome" required>
+    <input type="text" id="nome" name="name" required>
     
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required>
     
     <label for="mensagem">Mensagem:</label>
-    <textarea id="mensagem" name="mensagem" rows="4" required style="max-width:490px;"></textarea>
+    <textarea id="mensagem" name="message" rows="4" required style="max-width:490px;"></textarea>
     
     <button type="submit" class="btn-enviar">Enviar</button>
   </form>
