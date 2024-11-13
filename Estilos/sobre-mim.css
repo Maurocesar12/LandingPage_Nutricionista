@@ -55,7 +55,7 @@
     .sobremim {
         padding: 150px 20px;
         background-image: url(../img/img-perfil/lpnutria_Mobi.jpg);
-        background-size: cover; /* Ajusta o padding para telas menores */
+        /* Ajusta o padding para telas menores */
         background-attachment: fixed;
     }
 
