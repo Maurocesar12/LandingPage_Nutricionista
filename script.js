@@ -51,32 +51,6 @@ function handleScroll() {
 
 window.addEventListener('scroll', handleScroll); // Executa a função handleScroll sempre que houver scroll
 
-/* Contador de números */
-
-document.addEventListener("DOMContentLoaded", function() {
-  const counters = document.querySelectorAll('.item-destaque h4');
-  const animationDuration = 2500; // Duração da animação em milissegundos
-
-  // Função para animar o contador
-  function animateCounter(counter) {
-      const target = parseInt(counter.innerText); // Lê o valor definido no HTML
-      const start = 0;
-      const increment = Math.ceil(target / (animationDuration / 50)); // Incremento a cada 100ms
-      let current = start;
-
-      const interval = setInterval(() => {
-          current += increment;
-          if (current >= target) {
-              current = target; // Garante que não ultrapasse o valor alvo
-              clearInterval(interval);
-          }
-          counter.innerText = current + "+"; // Atualiza o texto do contador sem adicionar "+"
-      }, 100);
-  }
-
-  // Variável para controlar se a animação já foi executada
-  let hasAnimated = false;
-
   // Escuta o evento de scroll
   window.addEventListener('scroll', () => {
       const sectionTop = document.querySelector('.destaques').getBoundingClientRect().top;
@@ -90,7 +64,6 @@ document.addEventListener("DOMContentLoaded", function() {
           hasAnimated = true; // Marca que a animação foi executada
       }
   });
-});
 
 /* Menu Hamburger */
 const hamburger = document.querySelector(".hamburger");
