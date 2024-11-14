@@ -71,38 +71,40 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Alinha os elementos à esquerda */
-    margin-left: 2%; /* Ajuste para o espaçamento desejado */
+    margin-right: 50%; /* Ajuste para o espaçamento desejado */
     gap: 16px; /* Espaço entre o logo e os ícones */
 }
 .logo2{
     margin-top: -385px;
-    margin-left: 120px;
 }
 
 .logo2 img {
     width: 60%;
     height: auto;
-    box-shadow: 0 14px 10px rgba(0, 0, 0, 0.5), /* Sombra leve próxima */
+}
+
+.container-pai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .social-icons {
-    display: flex;
-    gap: 50px; /* Espaço entre os ícones */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    margin-top: 20px;
-    transform: translateY(0); /* Remove o deslocamento vertical */
-    margin-left: 21%;
+  display: flex;
+  gap: 75px;
+  justify-content: center;
+  transform: translate(0, 0);
+  transition: transform 0.3s ease;
+  margin-right: 3%; /* Transição suave para a movimentação */
 }
 
-.social-icons img {
-    width: 60px;
-    height: 60px;
-    transition: transform 0.3s ease;
-}
+.social-icons a img {
+  width: clamp(60px, 8vw, 60px); /* Ajuste responsivo para o tamanho dos ícones */
+  height: auto;
+  transition: transform 0.3s ease;}
 
 .social-icons img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 @media (max-width: 767px) {
     .contato {
