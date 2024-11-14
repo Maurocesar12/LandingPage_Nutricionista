@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/arlete30/repositories/LandingPage_Nutricionista   # Substitua pelo seu caminho de implantação no servidor
+    - export DEPLOYPATH=/home1/arlete30/public_html  # Substitua pelo seu caminho de implantação no servidor
     - /bin/cp -R * $DEPLOYPATH
