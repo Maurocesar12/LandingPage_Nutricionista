@@ -6,6 +6,9 @@
     opacity: 0.9;
     box-shadow: inset 0 0 80px rgba(255, 255, 255, 0.15), inset 0 0 150px rgba(255, 255, 255, 0.1);
 }
+.sobre{
+    font-size: 1.3em;
+}
 
 .sobremim h1 {
     text-align: center;
