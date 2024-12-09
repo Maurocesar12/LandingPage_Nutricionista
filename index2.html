@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial;
+}
+
+body {
+    background: linear-gradient(135deg, rgba(30, 174, 30, 0.8), rgba(50, 205, 50, 0.7), rgba(0, 0, 0, 0.5));
+    background-size: 400% 400%;
+    animation: gradient-animation 10s ease infinite;
+    color: white; /* Ajuste de contraste */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center; /* Centraliza todo o conteúdo */
+}
+
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.logo2 {
+    width: 48%;
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    height: auto;
+    border: none; /* Remove a borda da logo */
+    box-shadow: none; /* Remove qualquer sombra aplicada */
+    margin-bottom: -50px;
+}
+
+.logo2 img {
+    width: 100%; /* Garantir que a imagem preencha o contêiner */
+    height: auto;
+    border: none; /* Remove qualquer borda interna */
+    box-shadow: none; /* Remove sombras aplicadas à imagem */
+}
+
+img {
+    width: 80%; /* Imagem se ajusta automaticamente */
+    max-width: 800px; /* Tamanho máximo da imagem */
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 3vw; /* Usando 'vw' para tornar a fonte responsiva */
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    font-size: 2vw; /* Usando 'vw' para tornar a fonte responsiva */
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    margin: 0;
+}
+
+.counter {
+    font-weight: bold;
+    color: black;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    img {
+        width: 80%; /* Aumenta a largura da imagem em telas pequenas */
+    }
+    h1 {
+        font-size: 6vw; /* Ajusta o tamanho da fonte do h1 */
+    }
+    p {
+        font-size: 5vw; /* Ajusta o tamanho da fonte do p */
+    }
+  .counter {
+         font-weight: bold;
+        font-size: 3vh;
+        color: black;
+
+        margin-right: 10px;
+        padding: 9px;
+        background-color: white;
+        border-radius: 30px;
+}
+
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 92%; /* A imagem ocupa mais espaço em telas menores */
+    }
+    h1 {
+        font-size: 7vw; /* Ajusta o tamanho da fonte para telas pequenas */
+    }
+    p {
+        font-size: 5vw; /* Ajusta o tamanho da fonte para telas pequenas */
+    }
+    .counter {
+        font-weight: bold;
+        font-size: 3vh;
+        color: black;
+        margin-left: 8px;
+        margin-right: 10px;
+        padding: 9px;
+        background-color: white;
+        border-radius: 30px; /* Adiciona espaço à esquerda do número */
+} 
+
+}
+
+
+    </style>
+    <title>Seja bem-vindo(a)</title>
+</head>
+<body>
+    <header>
+        <div class="logo2">
+            <img src="img/icons-img/Logo1.png" alt="Logo Arlete">
+        </div>
+    </header>
+    
+    <section>
+        <img src="img/img-perfil/lpnutri.jpg" alt="NutricionistaArlete">
+        <h1>OBRIGADA POR ENTRAR EM CONTATO!</h1>
+        <p>Você será redirecionado(a) para o atendimento em:<span class="counter"> 5</span></p>
+    </section>
+
+    <!-- JavaScript - Contador -->
+   <script>
+    let counter = 5;
+    const counterElement = document.querySelector('.counter');
+    const whatssapUrl = "https://wa.me/+5521982943243";
+
+    const countdown = setInterval(() => {
+    counter--;
+    counterElement.textContent = counter;
+
+    if(counter <= 0) {
+        clearInterval(countdown);
+        window.location.href = whatssapUrl;
+    }
+}, 1000);
+   </script>
+</body>
+</html>
