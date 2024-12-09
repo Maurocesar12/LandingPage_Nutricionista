@@ -63,7 +63,7 @@
 
     .nav.active .nav-list{
         opacity: 1;
-        margin-right: 35px;
+        margin-left: -12px;
     }
     .nav.active .hamburger{
         position: fixed;
