@@ -90,21 +90,22 @@
 }
 
 .social-icons {
-  display: flex;
-  gap: 75px;
-  justify-content: center;
-  transform: translate(0, 0);
-  transition: transform 0.3s ease;
-  margin-right: 3%; /* Transição suave para a movimentação */
+   display: flex;
+   gap: 75px;
+   justify-content: center;
+   transform: translate(0, 0);
+   transition: transform 0.3s ease;
+   margin-right: 3%;
 }
 
 .social-icons a img {
-  width: clamp(60px, 8vw, 60px); /* Ajuste responsivo para o tamanho dos ícones */
-  height: auto;
-  transition: transform 0.3s ease;}
+    width: clamp(60px, 8vw, 60px); /* Ajuste responsivo para o tamanho do ícones */
+   height: auto;
+   transition: transform 0.3s ease;
+}
 
 .social-icons img:hover {
-  transform: scale(1.1);
+     transform: scale(1.1);
 }
 @media (max-width: 767px) {
     .contato {
@@ -177,5 +178,3 @@
       height: 50px;
     }
   }
-  
-
