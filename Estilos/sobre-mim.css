@@ -58,7 +58,7 @@
     .sobremim {
         padding: 150px 20px;
         background-image: url(../img/img-perfil/lpnutria_Mobi.jpg);
-        /* Ajusta o padding para telas menores */
+        background-size: cover;
         background-attachment: fixed;
     }
 
@@ -78,8 +78,8 @@
 @media (max-width: 480px) {
     .sobremim {
         padding: 100px 15px;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(../img/img-perfil/lpnutria_Mobi.jpg);
-        background-size: cover;/* Ajusta ainda mais o padding para smartphones */
+        background-image:url(../img/img-perfil/lpnutria_Mobi.jpg);
+        background-size: cover;
         background-attachment: fixed;
     }
 
