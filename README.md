@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
+# 🍎 Arlete Nutri – Landing Page
 
-## Project info
+Landing page moderna e responsiva desenvolvida para destacar os serviços da **Arlete Nutricionista**, com foco em conversão e experiência do usuário.
 
-**URL**: https://lovable.dev/projects/9511dbdc-ce16-4d3c-8ac6-aa97b7d9f5c3
+## ✨ Tecnologias Utilizadas
+- ⚛️ **React 18** (com Vite)
+- 🟦 **TypeScript**
+- 🎨 **TailwindCSS**
+- ⚡ **Vite** (build rápido e otimizado)
+- 🛠 **ESLint + Configuração personalizada**
+- 📦 Gerenciamento de pacotes com **npm/bun**
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/9511dbdc-ce16-4d3c-8ac6-aa97b7d9f5c3) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📂 Estrutura do Projeto
+```
+.
+├── public/               # Arquivos estáticos (favicon, robots.txt, etc.)
+├── src/
+│   ├── assets/           # Imagens e ícones do projeto
+│   ├── components/       # Componentes React (Hero, About, FAQ, Footer, etc.)
+│   ├── App.tsx           # Estrutura principal
+│   ├── main.tsx          # Entrada da aplicação
+│   └── index.css         # Estilos globais
+├── index.html            # Estrutura inicial da página
+├── package.json          # Dependências do projeto
+├── tailwind.config.ts    # Configuração do TailwindCSS
+├── vite.config.ts        # Configuração do Vite
+└── README.md             # Documentação do projeto
 ```
 
-**Edit a file directly in GitHub**
+## 🚀 Como Rodar o Projeto Localmente
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 1. Clone o repositório
+```bash
+git clone https://github.com/Maurocesar12/LandingPage_Nutricionista.git
+cd LandingPage_Nutricionista
+```
 
-**Use GitHub Codespaces**
+### 2. Instale as dependências
+Se estiver usando **npm**:
+```bash
+npm install
+```
+Ou, se estiver usando **bun**:
+```bash
+bun install
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 3. Rode o servidor de desenvolvimento
+```bash
+npm run dev
+```
+O projeto estará disponível em:  
+👉 http://localhost:5173
 
-## What technologies are used for this project?
+### 4. Build para produção
+```bash
+npm run build
+```
+Os arquivos finais ficarão em `dist/`.
 
-This project is built with:
+## 📸 Screenshots
+### Hero Section
+![Hero](./src/assets/hero-nutritionist.jpg)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Resultados
+![Resultados](./src/assets/transformation-results.jpg)
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/9511dbdc-ce16-4d3c-8ac6-aa97b7d9f5c3) and click on Share -> Publish.
+## 🎯 Funcionalidades
+- Layout **100% responsivo** (mobile, tablet e desktop).
+- Seções de **benefícios**, **avaliação profissional**, **transformações** e **FAQ**.
+- Estrutura otimizada para **SEO**.
+- Código limpo, organizado e de fácil manutenção.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🧑‍💻 Contribuindo
+Sinta-se à vontade para abrir issues ou enviar pull requests.  
+Toda melhoria é bem-vinda! 🚀
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📄 Licença
+Este projeto está sob a licença MIT.  
+Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
