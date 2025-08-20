@@ -18,10 +18,10 @@ const HeroSection = () => {
 
             {/* Main Headline */}
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                Transforme sua{" "}
-                <span className="text-gradient">relação com a comida</span>{" "}
-                em 30 dias
+              <h1 className="text-4xl md:text-6xl font-bold leading-tight pt-6">
+                Eu sou Arlete sua Nutricionista pessoal!{" "}
+                <span className="text-gradient">Junte-se e revolucione</span>{" "}
+                sua relação com a balança
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg">
                 Experimente um acompanhamento nutricional inovador que combina ciência e tecnologia para transformar sua vida com saúde e bem-estar 

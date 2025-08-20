@@ -155,7 +155,7 @@ const ServicesSection = () => {
               Pronta para começar sua transformação?
             </h3>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Agende sua consulta gratuita e descubra como posso te ajudar a alcançar seus objetivos de forma saudável e sustentável.
+              Agende sua consulta e descubra como posso te ajudar a alcançar seus objetivos de forma saudável e sustentável.
             </p>
             <Button 
               size="lg" 
@@ -163,7 +163,7 @@ const ServicesSection = () => {
               className="gradient-primary text-primary-foreground hover:shadow-soft transition-all duration-300"
             >
               <a href="https://wa.me/+5521982943243" target="_blank" rel="noopener noreferrer">
-                🚀 Agendar Consulta Gratuita
+                🚀 Agendar Consulta
               </a>
             </Button>
           </div>
