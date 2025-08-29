@@ -22,8 +22,8 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="w-12 h-12 gradient-primary rounded-full flex items-center justify-center opacity-100 hover:opacity-80">
-              <img src={logoPrincipal} alt="Logo Arlete Cristina" className="w-12 h-12 rounded-full object-cover" />
+            <div className="flex-shrink-0">
+              <img src={logoPrincipal} alt="Logo Arlete Cristina" className="w-20 h-12 scale-150 mr-10 rounded-full object-cover" />
             </div>
             <div className="ml-3">
               <h2 className="text-xl font-bold text-foreground">Arlete Cristina</h2>
