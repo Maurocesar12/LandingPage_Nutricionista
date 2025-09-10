@@ -60,7 +60,7 @@ Os arquivos finais ficarão em `dist/`.
 
 ## 📸 Screenshots
 ### Hero Section
-![Hero](./src/assets/hero.png)
+![Hero](./src/assets/img/hero.png)
 
 ### Resultados
 ![Resultados](./src/assets/transformation-results.jpg)
