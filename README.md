@@ -44,7 +44,6 @@ Ou, se estiver usando **bun**:
 ```bash
 bun install
 ```
-
 ### 3. Rode o servidor de desenvolvimento
 ```bash
 npm run dev
@@ -61,9 +60,6 @@ Os arquivos finais ficarão em `dist/`.
 ## 📸 Screenshots
 ### Hero Section
 ![Hero](./src/image/hero.png)
-
-### Resultados
-![Resultados](./src/assets/transformation-results.jpg)
 
 ---
 
