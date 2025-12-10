@@ -132,8 +132,8 @@ const FAQSection = () => {
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-green-800">Consulta Gratuita</p>
-                    <p className="text-sm text-green-600">Primeira avaliação sem custo</p>
+                    <p className="font-semibold text-green-800">Consulta Garantida</p>
+                    <p className="text-sm text-green-600">Venha fazer sua consulta</p>
                   </div>
                 </div>
               </div>
