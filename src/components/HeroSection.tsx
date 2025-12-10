@@ -116,11 +116,11 @@ const HeroSection = () => {
               <div className="absolute -bottom-6 -left-6 bg-card border border-border rounded-lg p-4 shadow-card max-w-xs">
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                    <span className="text-primary-foreground font-bold">NS</span>
+                    <span className="text-primary-foreground font-bold">GC</span>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">"Perdi 10kg em 2 meses!"</p>
-                    <p className="text-xs text-muted-foreground">- Nadyne Santos</p>
+                    <p className="text-sm font-medium">"Ótima nutricionista!"</p>
+                    <p className="text-xs text-muted-foreground">- Grabriele Carvalho</p>
                     <div className="flex space-x-1 mt-1">
                       {[...Array(5)].map((_, i) => (
                         <Star key={i} className="w-3 h-3 text-yellow-500 fill-current" />

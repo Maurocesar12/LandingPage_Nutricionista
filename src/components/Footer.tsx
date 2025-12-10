@@ -153,7 +153,7 @@ const Footer = () => {
                 🚀 Pronta para começar sua transformação?
               </h3>
               <p className="text-white/80 mb-6 max-w-2xl mx-auto">
-                Mais de 8.000 mulheres já conquistaram seus objetivos comigo. 
+                Mais de 12.000 mulheres já conquistaram seus objetivos comigo. 
                 Sua transformação começa com uma simples conversa.
               </p>
               <Button 
