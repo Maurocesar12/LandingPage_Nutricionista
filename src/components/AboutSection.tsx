@@ -11,17 +11,17 @@ const AboutSection = () => {
     },
     {
       icon: Award,
-      title: "Pós-Graduada em Fitoterapia",
+      title: "Especialização em fitoterapia",
       description: "Pela UFRJ - Universidade Federal do Rio de Janeiro"
     },
     {
       icon: Users,
-      title: "8.000+ Pacientes Atendidas",
+      title: "12.000+ Pacientes Atendidas",
       description: "Mais de uma década transformando vidas"
     },
     {
       icon: Calendar,
-      title: "13 Anos de Experiência",
+      title: "14 Anos de Experiência",
       description: "Atuando em consultório desde 2011"
     }
   ];
@@ -32,7 +32,10 @@ const AboutSection = () => {
     "Diabetes e síndrome metabólica",
     "Colesterol e triglicérides",
     "Deficiências nutricionais",
-    "Nutrição esportiva"
+    "Nutrição esportiva",
+    "Fitoterapia",
+    "Doença renal crônica",
+    "Esteatose"
   ];
 
   return (
@@ -55,15 +58,14 @@ const AboutSection = () => {
 
             <div className="space-y-6">
               <p className="text-lg leading-relaxed">
-                Olá! Sou especialista em emagrecimento e saúde, com uma missão clara: 
-                <strong className="text-primary"> transformar vidas através da alimentação equilibrada</strong> 
-                e personalizada para suas necessidades.
+                Sou nutricionista clínica, com 14 anos de experiência, nesse tempo, aprendi uma coisa importante: 
+                <strong className="text-primary"> ninguém falha na alimentação porque “não quer”.</strong> 
+                As pessoas desistem porque recebem orientações que não cabem na rotina.
               </p>
               
               <p className="text-lg leading-relaxed">
-                Minha abordagem combina <strong>ciência, experiência prática</strong> e um 
-                acompanhamento humanizado que já ajudou milhares de mulheres a 
-                alcançarem seus objetivos e manterem os resultados a longo prazo.
+                Meu trabalho é olhar para o todo:<strong> horários, hábitos, histórico de saúde, relação com a comida e contexto emocional.</strong> A partir disso, construo um plano possível de seguir, sem rigidez, sem terrorismo alimentar e sem soluções temporárias. Aqui, emagrecimento não é castigo. É consequência de organização, entendimento do corpo e constância.
+
               </p>
             </div>
 

@@ -6,10 +6,10 @@ import {
   Phone, 
   Mail, 
   MapPin, 
-  Instagram, 
-  Facebook, 
+  Instagram,  
   Clock,
-  Heart
+  Heart,
+  Chrome
 } from "lucide-react";
 import logoPrincipal from "../image/logoPrincipal.webp";
 
@@ -42,7 +42,7 @@ const Footer = () => {
                   <div>
                     <h3 className="font-semibold mb-1">WhatsApp</h3>
                     <p className="text-white/80">+55 (21) 98294-3243</p>
-                    <p className="text-sm text-white/60">Resposta em até 2 horas</p>
+                    <p className="text-sm text-white/60">Respostas dentro do horário comercial</p>
                   </div>
                 </div>
 
@@ -63,7 +63,7 @@ const Footer = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Atendimento</h3>
-                    <p className="text-white/80">Presencial: Rio de Janeiro, RJ</p>
+                    <p className="text-white/80">Presencial: São Gonçalo, RJ</p>
                     <p className="text-white/80">Online: Todo o Brasil</p>
                   </div>
                 </div>
@@ -94,11 +94,11 @@ const Footer = () => {
                     className="border-white/20 text-black hover:bg-white/10"
                   >
                     <a 
-                      href="https://www.facebook.com/Nutriacconsultoria" 
+                      href="https://www.tiktok.com/@nutriarletecris?is_from_webapp=1&sender_device=pc" 
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
-                      <Facebook className="w-5 h-5" />
+                      <Heart className="w-5 h-5" />
                     </a>
                   </Button>
                 </div>
@@ -166,7 +166,7 @@ const Footer = () => {
                 </a>
               </Button>
               <div className="mt-4 text-sm text-white/60">
-                ⚡ Resposta garantida em até 2 horas
+                ⚡ Respostas dentro do horário comercial
               </div>
             </div>
           </div>

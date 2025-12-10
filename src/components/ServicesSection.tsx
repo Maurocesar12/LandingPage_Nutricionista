@@ -17,40 +17,37 @@ const ServicesSection = () => {
     {
       icon: Stethoscope,
       title: "Avaliação Completa",
-      description: "Bioimpedância, histórico pessoal e familiar, análise de hábitos alimentares e rastreamento metabólico.",
+      description: "Aqui começa o diagnóstico de verdade. A consulta inicia com uma anamnese detalhada, onde conversamos sobre:",
       features: [
-        "Bioimpedância profissional",
-        "Análise de composição corporal",
-        "Avaliação de hábitos alimentares",
+        "histórico de saúde pessoal e familiar",
+        "rotina, alimentação, sono e nível de estresse",
+        "sintomas, desconfortos, intolerâncias e sinais metabólicos",
         "Rastreamento de alergias e intolerâncias"
       ],
-      duration: "60 minutos",
       image: professionalAssessment
     },
     {
       icon: FileText,
       title: "Plano Nutricional Exclusivo",
-      description: "Cardápio personalizado criado especificamente para seus objetivos, preferências e estilo de vida.",
+      description: "O plano alimentar não vem pronto. Ele é construído com você, durante a consulta.",
       features: [
-        "Cardápio 100% personalizado",
-        "Adaptado ao seu estilo de vida",
-        "Receitas práticas e saborosas",
-        "Lista de compras incluída"
+        "sua rotina real",
+        "preferências alimentares",
+        "objetivos clínicos e estéticos",
+        "exames laboratoriais (quando disponíveis)"
       ],
-      duration: "Entrega em 48h",
       image: mealPrepImage
     },
     {
       icon: HeartHandshake,
       title: "Acompanhamento Contínuo",
-      description: "Consultas regulares para ajustes e suporte constante via WhatsApp durante todo o processo.",
+      description: "Resultado não vem de uma consulta isolada. Durante o acompanhamento (3 meses, 6 meses ou 1 ano), você conta com:",
       features: [
-        "Consultas quinzenais ou mensais",
+        "Consultas quinzenais ou mensais para ajustes",
         "Suporte via WhatsApp",
-        "Ajustes conforme evolução",
-        "Motivação e orientação constante"
+        "Adequações conforme sua evolução",
+        "Orientação contínua para evitar recaídas e estagnação"
       ],
-      duration: "Acompanhamento ilimitado",
       image: null
     }
   ];
@@ -68,7 +65,7 @@ const ServicesSection = () => {
             <span className="text-gradient">processo de transformação</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Um método científico e personalizado que já transformou a vida de mais de 8.000 mulheres
+            Um método científico e personalizado que já transformou a vida de mais de 14.000 mulheres
           </p>
         </div>
 
@@ -107,12 +104,7 @@ const ServicesSection = () => {
                       ))}
                     </div>
 
-                    <div className="flex items-center space-x-4 text-sm text-muted-foreground">
-                      <div className="flex items-center space-x-2">
-                        <Clock className="w-4 h-4" />
-                        <span>{service.duration}</span>
-                      </div>
-                    </div>
+
                   </CardContent>
                 </div>
 
@@ -152,10 +144,10 @@ const ServicesSection = () => {
         <div className="mt-16 text-center">
           <div className="bg-card border border-border rounded-2xl p-8 shadow-card">
             <h3 className="text-2xl font-bold mb-4">
-              Pronta para começar sua transformação?
+              Pronta para cuidar da sua saúde de forma realista e personalizada?
             </h3>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Agende sua consulta e descubra como posso te ajudar a alcançar seus objetivos de forma saudável e sustentável.
+              Te ajudo a entender o seu corpo, criar hábitos que cabem na sua rotina e alcançar resultados sem dietas radicais.
             </p>
             <Button 
               size="lg" 

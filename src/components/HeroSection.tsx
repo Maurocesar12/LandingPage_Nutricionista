@@ -19,23 +19,24 @@ const HeroSection = () => {
             {/* Main Headline */}
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-bold leading-tight pt-6">
-                Eu sou Arlete sua Nutricionista pessoal!{" "}
-                <span className="text-gradient">Junte-se e revolucione</span>{" "}
-                sua relação com a balança
+                Sou Arlete, nutricionista{" "}
+                <span className="text-gradient">Aqui o meu propósito é</span>{" "}
+                te proporsionar uma vida mais leve e saudável.
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg">
-                Experimente um acompanhamento nutricional inovador que combina ciência e tecnologia para transformar sua vida com saúde e bem-estar 
-                <strong className="text-primary"> emagrecer com saúde</strong> e manter os resultados para sempre.
+                Você não precisa comer pouco, cortar tudo que gosta ou viver contando calorias. O que realmente funciona é ajustar a alimentação à sua rotina, aos seus horários e aos seus hábitos, de um jeito possível, leve e sustentável.
+                <strong className="text-primary"> Uma vida mais leve e saudável, </strong>sem culpa, sem exageros e sem restrições impossíveis.
               </p>
             </div>
 
             {/* Benefits List */}
             <div className="space-y-3">
               {[
-                "Avaliação completa com bioimpedância",
-                "Cardápio personalizado para seu estilo de vida",
-                "Acompanhamento quinzenal para ajustes",
-                "Suporte via WhatsApp durante todo o processo"
+                "Plano alimentar feito com base na sua rotina real",
+                "Avaliação completa do corpo, hábitos e histórico de saúde",
+                "Bioimpedância",
+                "Ajustes frequentes para não travar nem desistir no meio do caminho",
+                "Suporte direto no WhatsApp para não ficar perdida entre consultas",
               ].map((benefit, index) => (
                 <div key={index} className="flex items-center space-x-3">
                   <div className="w-6 h-6 gradient-primary rounded-full flex items-center justify-center flex-shrink-0">
@@ -55,19 +56,12 @@ const HeroSection = () => {
                 </div>
                 <p className="text-sm text-muted-foreground">Avaliação média</p>
               </div>
-              <div className="text-center">
+              <div className="text-center space-x-0">
                 <div className="flex items-center justify-center space-x-1 mb-2">
                   <Trophy className="w-5 h-5 text-primary" />
-                  <span className="text-2xl font-bold text-foreground">13</span>
+                  <span className="text-2xl font-bold text-foreground">15</span>
                 </div>
                 <p className="text-sm text-muted-foreground">Anos de experiência</p>
-              </div>
-              <div className="text-center">
-                <div className="flex items-center justify-center space-x-1 mb-2">
-                  <Clock className="w-5 h-5 text-primary" />
-                  <span className="text-2xl font-bold text-foreground">72h</span>
-                </div>
-                <p className="text-sm text-muted-foreground">Para ver resultados</p>
               </div>
             </div>
 
@@ -79,7 +73,7 @@ const HeroSection = () => {
                 className="gradient-primary text-primary-foreground hover:shadow-hero transition-all duration-300 transform hover:scale-105"
               >
                 <a href="https://wa.me/+5521982943243" target="_blank" rel="noopener noreferrer">
-                  ✨ Agendar Consulta Gratuita
+                  ✨ Agende agora sua consulta
                 </a>
               </Button>
               <Button 
@@ -95,20 +89,13 @@ const HeroSection = () => {
             </div>
 
             {/* Social Proof Badge - Repositioned */}
-            <div className="bg-emerald-light/20 border border-emerald/30 rounded-lg p-4 backdrop-blur-sm">
-              <div className="flex items-center justify-center space-x-3">
+            <div className="bg-emerald-light/40 border border-emerald/40 rounded-lg p-5 backdrop-blur-sm">
+              <div className="flex items-center justify-center space-x-4">
                 <Users className="w-5 h-5 text-primary" />
                 <p className="text-sm font-semibold text-forest">
-                  ✨ <strong>Mais de 8.000 mulheres transformadas</strong> - Junte-se ao grupo de sucesso!
+                  ✨ <strong>Mais de 12.000 mulheres transformadas</strong>
                 </p>
               </div>
-            </div>
-
-            {/* Urgency/Scarcity */}
-            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-              <p className="text-sm text-yellow-800">
-                🔥 <strong>Apenas 5 vagas disponíveis este mês</strong> - Garantia de resultado ou seu dinheiro de volta
-              </p>
             </div>
           </div>
 
