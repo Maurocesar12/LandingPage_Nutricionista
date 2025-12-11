@@ -64,7 +64,7 @@ const TestimonialsSection = () => {
             <span className="text-gradient">estão falando</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Mais de 14.000 mulheres já transformaram suas vidas. Veja alguns resultados reais:
+            Mais de 12.000 mulheres já transformaram suas vidas. Veja alguns resultados reais:
           </p>
         </div>
 

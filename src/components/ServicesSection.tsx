@@ -65,7 +65,7 @@ const ServicesSection = () => {
             <span className="text-gradient">processo de transformação</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Um método científico e personalizado que já transformou a vida de mais de 14.000 mulheres
+            Um método científico e personalizado que já transformou a vida de mais de 12.000 mulheres
           </p>
         </div>
 

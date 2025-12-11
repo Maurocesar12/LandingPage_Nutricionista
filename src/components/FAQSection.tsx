@@ -156,7 +156,7 @@ const FAQSection = () => {
                     <span className="text-white text-sm">⭐</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-purple-800">14.000+ Transformadas</p>
+                    <p className="font-semibold text-purple-800">12.000+ Transformadas</p>
                     <p className="text-sm text-purple-600">Resultados comprovados</p>
                   </div>
                 </div>
